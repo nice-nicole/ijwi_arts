@@ -6,7 +6,13 @@
 <head>
   <title>Ijwi Ltd</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=devide-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=devide-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="css/index.css" rel="stylesheet" type="text/css" />
 
@@ -18,7 +24,7 @@
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="logo">
-          <a href="#"><img src="/images/save2.svg" alt=" logo" /></a>
+          <a href="#"><img src="/images/unnamed (5).png" alt=" logo" /></a>
         </div>
         <button type="button" class="nav-toggler">
           <span></span>
@@ -28,9 +34,8 @@
             <li class="nav-item"><a href="#home">home</a></li>
             <li class="nav-item"><a href="#about">about us</a></li>
             <li class="nav-item"><a href="#services">our services</a></li>
-            <li class="nav-item"><a href="#portfolios">portfolio</a></li>
             <li class="nav-item"><a href="#team">our team</a></li>
-            <li class="nav-item"><a href="#contact">contact</a></li>
+            <li class="nav-item"><a href="#footer">contact</a></li>
           </ul>
         </nav>
       </div>
@@ -40,7 +45,7 @@
 
   <!-- home section -->
 
-  <section class="home-section">
+  <section class="home-section" id="home">
     <div class="home-bg"></div>
     <div class="container">
       <div class="row min-vh-100 align-items-center">
@@ -88,7 +93,7 @@
   <!-- end of about section -->
 
   <!-- services section -->
-  <section class="service-section sec-padding" id="our-services">
+  <section class="service-section sec-padding" id="services">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -98,14 +103,172 @@
       <div class="row">
         <div class="service-tabs">
           <button type="button" class="service-tab-item active" data-target="#events">events</button>
-          <button type="button" class="service-tab-item" data-target="#dance">dance</button>
-          <button type="button" class="service-tab-item" data-target="#restoration">restoration</button>
+          <button type="button" class="service-tab-item" data-target="#offered_services">services</button>
+          <button type="button" class="service-tab-item" data-target="#portfolio">portfolios</button>
         </div>
       </div>
+
+      <div class="row service-tab-content active" id="events">
+
+        <div class="grid-container">
+          <div class="item">
+            <img class='grid-item grid-item-1' src="images/weddings.jpeg" alt=''>
+            <p>"weddings"</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-2' src="images/birthdays.jpeg" alt=''>
+            <p>"Birthday parties"</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-3' src="images/demande_de_fiancailles.jpeg" alt=''>
+            <p>"Engagement"</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-4' src="images/dowry.jpeg" alt=''>
+            <p>"Remise de dot&Levee de voile"</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-5' src="images/seminars.jpeg" alt=''>
+            <p>"Meetings and seminars"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row service-tab-content" id="offered_services">
+        <div class="grid-container">
+          <div class="item">
+            <img class='grid-item grid-item-1' src="images/plan any event.png" alt=''>
+            <p>Plan any event</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-2' src="images/decoration.jpeg" alt=''>
+            <p>decoration</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-3' src="images/sonorisation et eclairage.jpg" alt=''>
+            <p>sonorisation et eclairage</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-4' src="images/hqdefault.jpg" alt=''>
+            <p>danses traditionnelles</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-5' src="images/hqdefault.jpg" alt=''>
+            <p>danses traditionnelles</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-5' src="images/tambour.jpg" alt=''>
+            <p>tambours</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-6' src="images/buffet.jpg" alt=''>
+            <p>Restauration/Buffet</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-7' src="images/rafraichissement.jpg" alt=''>
+            <p>Restauration/Raffraichissement</p>
+          </div>
+
+          <div class="item">
+            <img class='grid-item grid-item-8' src="images/photography-day1-scaled.jpg" alt=''>
+            <p>photography</p>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <div class="row service-tab-content" id="portfolio"></div>
 
     </div>
   </section>
   <!-- end of services section -->
+
+  <!-- team section -->
+  <section class="team-section sec-padding" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="workmates">our team</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="team-item">
+          <img src="images/1.jpg" alt="">
+          <div class="team-item-info">
+            <h3>Nice Nicole</h3>
+            <p>Dance Choreographer</p>
+          </div>
+        </div>
+
+        <div class="team-item">
+          <img src="images/2.jpg" alt="">
+          <div class="team-item-info">
+            <h3>Clarisse Rukundo</h3>
+            <p>ChargE du decor</p>
+          </div>
+        </div>
+
+        <div class="team-item">
+          <img src="images/3.jpg" alt="">
+          <div class="team-item-info">
+            <h3>Carine Semwaga</h3>
+            <p>Restoration Person</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- end of team section -->
+
+  <!-- footer -->
+  <div class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-item">
+          <h3>our location</h3>
+          <p>xyz Street, Sector-12, <br> Kigali - Rwanda</p>
+        </div>
+        <div class="footer-item">
+          <h3>opening hours</h3>
+          <p>Monday to Sunday <br> 9:00 AM - 8:00PM</p>
+        </div>
+        <div class="footer-item">
+          <h3>contact us</h3>
+          <p>+250 785 922 936 <br> jereha2013@gmail.com</p>
+          <div class="social-links">
+            <a href="#"><img src="/images/facebook.svg"></a>
+            <a href="#"><img src="/images/Instagram.svg"></a>
+            <a href="#"><img src="/images/Twitter.svg"></a>
+            <a href="#"><img src="/images/youtube.svg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copyright">
+          copyright &copy; 2021
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of footer -->
 
   <script src="/script.js"></script>
 </body>
